@@ -1,0 +1,25 @@
+{
+  "seed": 20261022,
+  "grid_size": 64,
+  "led_frames": 49,
+  "iterations": 200,
+  "fixed_aligned_nrmse": 0.9924560607888185,
+  "joint_aligned_nrmse": 0.8553353841774494,
+  "nrmse_improvement_percent": 13.8162969655688,
+  "fixed_amplitude_nrmse": 0.20991730812215006,
+  "joint_amplitude_nrmse": 0.08053281962608232,
+  "amplitude_nrmse_improvement_percent": 61.635931621598075,
+  "true_pose": {
+    "dx_led_pitch": 0.35,
+    "dy_led_pitch": -0.25,
+    "theta_deg": 2.0
+  },
+  "estimated_pose": {
+    "dx_led_pitch": 0.13438565017716508,
+    "dy_led_pitch": -0.07493874933493223,
+    "theta_deg": 1.9993662998366668
+  },
+  "final_fixed_loss": 0.001708199768459892,
+  "final_joint_loss": 2.6942720079571874e-05,
+  "runtime_seconds": 16.625452032
+}

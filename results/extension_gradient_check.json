@@ -1,0 +1,18 @@
+{
+  "coefficients": [
+    0.03,
+    -0.02
+  ],
+  "analytic_gradient": [
+    -0.0021302421626408843,
+    1.8858627011800243e-07
+  ],
+  "finite_difference_gradient": [
+    -0.0021302421626402364,
+    1.8858626818366378e-07
+  ],
+  "max_relative_error": 1.0257049186285873e-08,
+  "pass_threshold": 0.0001,
+  "passed": true,
+  "runtime_seconds": 0.039633029000015085
+}

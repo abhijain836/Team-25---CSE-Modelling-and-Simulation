@@ -1,0 +1,17 @@
+{
+  "grid_size": 64,
+  "led_side": 7,
+  "seed": 20261022,
+  "q_step_cycles_per_pixel": 0.035,
+  "pupil_radius_cycles_per_pixel": 0.12,
+  "noise_fraction_of_peak": 0.0025,
+  "true_pose": {
+    "dx_led_pitch": 0.35,
+    "dy_led_pitch": -0.25,
+    "theta_deg": 2.0
+  },
+  "iterations": 200,
+  "pose_warmup_iterations": 25,
+  "object_learning_rate": 0.08,
+  "pose_learning_rate": 0.01
+}
