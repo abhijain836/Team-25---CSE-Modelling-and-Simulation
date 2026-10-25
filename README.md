@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 
 ## M3 scope
 
-The cold-run baseline uses a 64 x 64 synthetic complex object, 49 coherent intensity frames, a known circular pupil, and one fixed seed. This is the M1/M2 model at reduced grid size and run count for a reproducible M3 demonstration. M4 will restore matched seeds and grid refinement before making the 5% median-NRMSE claim.
+The cold-run baseline uses a 64 x 64 synthetic complex object, 49 coherent intensity frames, a known circular pupil, and one fixed seed. This is the M1/M2 model at reduced grid size and run count for a reproducible M3 demonstration. 
 
 ## Repository map
 
@@ -39,8 +39,8 @@ The cold-run baseline uses a 64 x 64 synthetic complex object, 49 coherent inten
 
 ## Reproducibility and AI use
 
-No absolute paths, downloads, accounts, or private data are required. NumPy implements the model; Matplotlib creates the figure. Generative AI assisted with drafting and code structure. The team must review, understand, and test every line before submission.
+No absolute paths, downloads, accounts, or private data are required. Generative AI helped in structuring the crude working python script into the current code/data pipeline in this repository. 
 
 ## Course-package note
 
-This M3 baseline does not import `cse6730`; it is self-contained. Record the package commit here only if a course-package function is added later: `[NOT USED IN M3]`.
+This M3 baseline does not import `cse6730`; it is self-contained.
